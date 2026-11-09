@@ -1,0 +1,25 @@
+export const CITY_PRESETS = [
+  { id: 'new-york', city: 'New York', country: 'United States', code: 'US', timeZone: 'America/New_York' },
+  { id: 'los-angeles', city: 'Los Angeles', country: 'United States', code: 'US', timeZone: 'America/Los_Angeles' },
+  { id: 'toronto', city: 'Toronto', country: 'Canada', code: 'CA', timeZone: 'America/Toronto' },
+  { id: 'mexico-city', city: 'Mexico City', country: 'Mexico', code: 'MX', timeZone: 'America/Mexico_City' },
+  { id: 'sao-paulo', city: 'São Paulo', country: 'Brazil', code: 'BR', timeZone: 'America/Sao_Paulo' },
+  { id: 'london', city: 'London', country: 'United Kingdom', code: 'GB', timeZone: 'Europe/London' },
+  { id: 'paris', city: 'Paris', country: 'France', code: 'FR', timeZone: 'Europe/Paris' },
+  { id: 'berlin', city: 'Berlin', country: 'Germany', code: 'DE', timeZone: 'Europe/Berlin' },
+  { id: 'moscow', city: 'Moscow', country: 'Russia', code: 'RU', timeZone: 'Europe/Moscow' },
+  { id: 'cairo', city: 'Cairo', country: 'Egypt', code: 'EG', timeZone: 'Africa/Cairo' },
+  { id: 'lagos', city: 'Lagos', country: 'Nigeria', code: 'NG', timeZone: 'Africa/Lagos' },
+  { id: 'cape-town', city: 'Cape Town', country: 'South Africa', code: 'ZA', timeZone: 'Africa/Johannesburg' },
+  { id: 'dubai', city: 'Dubai', country: 'United Arab Emirates', code: 'AE', timeZone: 'Asia/Dubai' },
+  { id: 'mumbai', city: 'Mumbai', country: 'India', code: 'IN', timeZone: 'Asia/Kolkata' },
+  { id: 'singapore', city: 'Singapore', country: 'Singapore', code: 'SG', timeZone: 'Asia/Singapore' },
+  { id: 'hong-kong', city: 'Hong Kong', country: 'China', code: 'HK', timeZone: 'Asia/Hong_Kong' },
+  { id: 'shanghai', city: 'Shanghai', country: 'China', code: 'CN', timeZone: 'Asia/Shanghai' },
+  { id: 'seoul', city: 'Seoul', country: 'South Korea', code: 'KR', timeZone: 'Asia/Seoul' },
+  { id: 'tokyo', city: 'Tokyo', country: 'Japan', code: 'JP', timeZone: 'Asia/Tokyo' },
+  { id: 'sydney', city: 'Sydney', country: 'Australia', code: 'AU', timeZone: 'Australia/Sydney' },
+  { id: 'auckland', city: 'Auckland', country: 'New Zealand', code: 'NZ', timeZone: 'Pacific/Auckland' },
+]
+
+export const DEFAULT_CITY_IDS = ['new-york', 'london', 'tokyo', 'sydney']
